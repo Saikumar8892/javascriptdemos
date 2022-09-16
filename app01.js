@@ -1,15 +1,11 @@
 console.log(a);
 
+var a = 'hello world';
 
-
+console.log(a);
 
 function b() {
-console.log(x);
+  console.log('called function b');
 }
 
-function a(){
-    var x=2;
-    b();
-}
-var x=1;
-a();
+b();
